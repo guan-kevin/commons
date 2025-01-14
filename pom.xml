@@ -274,6 +274,13 @@
                     <maxmem>256m</maxmem>
                 </configuration>
             </plugin>
+
+            <!-- Add TraceMOP Maven plugin -->
+            <plugin>
+                <groupId>edu.cornell</groupId>
+                <artifactId>tracemop-maven-plugin</artifactId>
+                <version>1.0</version>
+            </plugin>
         </plugins>
     </build>
 </project>
